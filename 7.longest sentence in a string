@@ -1,0 +1,4 @@
+sentence = "study well for your future. study well for you. study well."
+sentence_list = sentence.split(".")
+length_of_sentence = [len(i) for i in sentence_list]
+print(sentence_list[length_of_sentence.index(max(length_of_sentence))])
